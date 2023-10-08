@@ -15,7 +15,7 @@ This is a simple weather forecasting website that allows users to retrieve curre
 ### Usage
 This website is designed to provide users with quick access to current weather data for cities around the world. It can be used for planning outdoor activities, checking the weather in different locations, or simply staying informed about the weather conditions.
 
-##Technologies Used
+### Technologies Used
 HTML5
 CSS3
 JavaScript
