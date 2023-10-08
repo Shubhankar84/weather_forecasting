@@ -1,4 +1,4 @@
-# weather_forecasting
+# WEATHER FORECASTING
 
 This is a simple weather forecasting website that allows users to retrieve current weather information for a specific city. Users can enter the name of a city, and the website will display details such as temperature, humidity, wind speed, and cloud percentage for that city.
 
