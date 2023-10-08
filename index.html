@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="logo">Weather App</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Forecast</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="search">
+        <input type="text" class="search-bar" id="place" placeholder="Enter city name">
+        <button type="submit" id="submit" onclick="getOutput()">Search</button>
+        <!-- <div id="result" style="color: red;">result</div> -->
+    </div>
+    
+    <div class="cityName" id="cityName">
+        <h2>Current Weather in Mumbai</h2>
+    </div>
+
+    <div class="card">
+        <div class="weather">
+            <h2 class="temperature">Humidity</h2>
+            <h1 id="humidity">0%</h1>
+            <h3 id="cloud">Cloud pct: </h3>
+            <h3 id="feels">Feels like</h3>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="weather">
+            <h2 class="temperature">Temperatures</h2>
+            <h1 id="temp">0°C</h1>
+            <h3 id="minTemp">Minimum Temperature: 0°C</h3>
+            <h3 id="maxTemp">Maximum Temperature: 0°C</h3>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="weather">
+            <h2 class="temperature">Wind Info</h2>
+            <h1 id="windspeed1">0km/h</h1>
+            <h3 id="windDegree">Wind degree: 0</h3>
+            <h3 id="windSpeed">Wind speed: 0</h3>
+        </div>
+    </div>
+</body>
+</html>
